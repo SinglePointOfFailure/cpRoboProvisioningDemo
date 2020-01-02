@@ -1,0 +1,7 @@
+# file: inventory
+#
+all:
+  hosts:
+    192.168.100.2:
+      ansible_user: admin
+      ansible_ssh_pass: Chkp!234
