@@ -10,7 +10,7 @@
  
   tasks:
   - name: "Running the provisioning script on 192.168.100.2"
-    script: /home/administrator/ieso_robo_provisioning/scripts/iesoRoboProvisioningDemo_Phase1.sh
+    script: ./iesoRoboProvisioningDemo_Phase1.sh
     register: output
  
   - debug: var=output.stdout_lines
